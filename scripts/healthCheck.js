@@ -88,5 +88,3 @@ function renderHealthMetricTable() {
         tableBodyEl.append(rowEl);
     })
 }
-
-//setInterval(onClickHandler, 5000)
