@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.hero-bg1 {
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+header {
+    padding: 1em 0;
+}
+
+.hero-bg1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-bg2 {
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    padding-block-end: 4em;
+}
+
+.hero-bg2 #host-health-table {
+    background-color: lightgrey;
+    color: black;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero-bg2 #host-health-table td, .hero-bg2 #host-health-table th {
+    padding: 4px;
+}
+
+button.network-status {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+
+    margin-left: 40%;
+
+    border: none;
+}
+
+.network-status.green{
+    background-color: green;
+    box-shadow: 0 0px 10px 5px rgb(82 255 0 / 40%);
+}
+
+.network-status.red{
+    background-color: red;
+    box-shadow: 0 0px 5px 5px rgb(255 20 20 / 14%);
+}

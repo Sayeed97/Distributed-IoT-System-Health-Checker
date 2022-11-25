@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="hero-bg1">
+        <section>
+            <header>
+                <a>ESP8266 Distributed System Health Checker</a>
+            </header>
+
+            <p>Checks for individual ESP8266 device health in a distributed environment</p>
+
+            <div class="form-container">
+                <form action="">
+                    <input type="button" onclick="onClickHandler()" value="Perform health check">
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="hero-bg2">
+        <table id="host-health-table">
+            <tr>
+                <th>Host IP address</th>
+                <th>Health</th>
+                <th>Network Link</th>
+            </tr>
+        </table>
+    </div>
+    <script src="/scripts/healthCheck.js">
+    </script>
+</body>
+</html>
