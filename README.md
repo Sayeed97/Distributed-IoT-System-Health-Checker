@@ -11,3 +11,6 @@ Testing:
 * This project was local tested by hosting a local server which used HTML, CSS and Javascript files to create the webpage. 
 * The backend code was written in C++ and uploaded to ESP8266 using USB protocol.
 
+Webpage Visual:
+
+![Webpage](https://github.com/Sayeed97/Distributed-IoT-System-Health-Checker/blob/main/Webpage.png)
