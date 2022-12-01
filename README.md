@@ -4,7 +4,7 @@ Design Document: https://docs.google.com/document/d/12SKTOVUmI8C1CQ-v_76mn2eVt7Z
 
 Software Pre-requirements: 
 * Arduino IDE.
-* VS Code.
+* VS Code + live server extension to support local hosting of webpage.
 * A generic web browser like chrome or firefox.
 
 Testing: 
